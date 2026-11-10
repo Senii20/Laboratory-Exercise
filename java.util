@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner user_input = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String user_name = user_input.nextLine();
+
+        System.out.println("Jansen Parec " + user_name);
+
+        user_input.close();
+    }
+}
